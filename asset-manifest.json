@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/easy-bank-ui/static/css/main.4ffccf95.chunk.css",
+    "main.js": "/easy-bank-ui/static/js/main.dee85939.chunk.js",
+    "main.js.map": "/easy-bank-ui/static/js/main.dee85939.chunk.js.map",
+    "runtime-main.js": "/easy-bank-ui/static/js/runtime-main.0cbc2043.js",
+    "runtime-main.js.map": "/easy-bank-ui/static/js/runtime-main.0cbc2043.js.map",
+    "static/js/2.3219946f.chunk.js": "/easy-bank-ui/static/js/2.3219946f.chunk.js",
+    "static/js/2.3219946f.chunk.js.map": "/easy-bank-ui/static/js/2.3219946f.chunk.js.map",
+    "index.html": "/easy-bank-ui/index.html",
+    "static/css/main.4ffccf95.chunk.css.map": "/easy-bank-ui/static/css/main.4ffccf95.chunk.css.map",
+    "static/js/2.3219946f.chunk.js.LICENSE.txt": "/easy-bank-ui/static/js/2.3219946f.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/easy-bank-ui/static/media/PublicSans-VariableFont_wght.1db534b6.ttf",
+    "static/media/bg-intro-mobile.c2ed38d0.svg": "/easy-bank-ui/static/media/bg-intro-mobile.c2ed38d0.svg",
+    "static/media/icon-api.74c8ad17.svg": "/easy-bank-ui/static/media/icon-api.74c8ad17.svg",
+    "static/media/icon-budgeting.ad716997.svg": "/easy-bank-ui/static/media/icon-budgeting.ad716997.svg",
+    "static/media/icon-close.c2e36e04.svg": "/easy-bank-ui/static/media/icon-close.c2e36e04.svg",
+    "static/media/icon-hamburger.b0d311fe.svg": "/easy-bank-ui/static/media/icon-hamburger.b0d311fe.svg",
+    "static/media/icon-onboarding.d74aed64.svg": "/easy-bank-ui/static/media/icon-onboarding.d74aed64.svg",
+    "static/media/icon-online.b0622b15.svg": "/easy-bank-ui/static/media/icon-online.b0622b15.svg",
+    "static/media/image-confetti.67921b11.jpg": "/easy-bank-ui/static/media/image-confetti.67921b11.jpg",
+    "static/media/image-currency.1b385bf9.jpg": "/easy-bank-ui/static/media/image-currency.1b385bf9.jpg",
+    "static/media/image-mockups.48d35b17.png": "/easy-bank-ui/static/media/image-mockups.48d35b17.png",
+    "static/media/image-plane.03db115d.jpg": "/easy-bank-ui/static/media/image-plane.03db115d.jpg",
+    "static/media/image-restaurant.1951b576.jpg": "/easy-bank-ui/static/media/image-restaurant.1951b576.jpg",
+    "static/media/logo-light.d88c0670.svg": "/easy-bank-ui/static/media/logo-light.d88c0670.svg",
+    "static/media/logo.94d36b03.svg": "/easy-bank-ui/static/media/logo.94d36b03.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbc2043.js",
+    "static/js/2.3219946f.chunk.js",
+    "static/css/main.4ffccf95.chunk.css",
+    "static/js/main.dee85939.chunk.js"
+  ]
+}
