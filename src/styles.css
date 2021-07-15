@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'public-sans';
+    src: url('./PublicSans-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue:hsl(233, 26%, 24%);
+    --lime-green:hsl(136, 65%, 51%);
+    --bright-cyan:hsl(192, 70%, 51%);
+}
+.dark-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .4;
+    display: none;
+}
+.dark-bg.active{
+    display: block;
+}
+body{
+    font-family: 'public-sans';
+}
+h1{
+    font-size: 2.4rem;
+    width: 90%;
+    font-weight: 400;
+    margin: 0 auto;
+}
+/*Header*/
+
+#header{
+    background-color: none;
+    box-shadow: none;
+    background-color: white;
+    box-shadow: 0px 4px 10px #2730363d;
+    z-index: 2;
+}
+#header nav .desktop-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem 1rem;
+}
+#header nav{
+    position: relative;
+}
+#header  .navbar-title{
+ position: relative;
+ font-size: 1.7rem;
+ font-weight: 900;
+ padding-left: 0rem;
+  
+}
+#header nav .mobile-nav{ 
+background: rgb(255, 255, 255);    
+border-radius: .3rem;
+height: 0px;
+opacity: 0;
+position: absolute;
+width: 90%;  
+top: 4.6rem;
+left: 50%;
+transform: translateX(-50%);
+box-shadow: 0px 10px 20px hsla(233, 26%, 24%, 0.349);
+overflow: hidden;
+transition: all .5s ease-out;
+}
+#header nav .mobile-nav ul{
+    padding: .5rem 0rem;
+    text-align: center;
+}
+#header nav .mobile-nav.active{
+    height: 175px;
+    opacity: 1;
+    
+}
+#header nav .mobile-nav .nav-item{
+    display: block;
+    padding: .7rem 0rem ;
+}
+
+#header .nav-link{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+#header .nav-link::before{
+content: " ";
+position: absolute;
+height: 3px;
+width:0%;
+background-color: black;
+bottom: -.3rem;
+opacity: 0;
+transition: all .5s linear;
+}
+#header .nav-link:hover::before{
+    opacity: 1;
+}
+#header .menu-button{
+    display: none;
+    position: relative;
+}
+#header .nav-item{
+    display: inline-block;
+    padding: 0rem 1.3rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*Intro*/
+
+#intro div{
+    position: relative;
+}
+#intro .mockup-bg{
+    position: absolute;
+    top: -70px;
+}
+#intro .mockup-bg img{
+    width: 100%;
+    height: 100%;
+}
+#intro .content {
+   text-align: center;
+   padding: 0rem 1rem;
+}
+#intro .content p{
+    margin: 1.5rem 0rem  2rem 0rem;
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+#intro .content button,#footer button{
+    background-image: linear-gradient(to right,var(--lime-green) 50%,var(--bright-cyan));
+    border-radius:50px;
+    color: white;
+    border-color: hsl(192, 70%, 51%);
+    padding: .8rem 2rem;
+    font-size: 1rem;
+}
+
+/*services*/
+#services{
+    text-align: center;
+}
+#services .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services h1{
+    font-size:2rem ;
+    margin: 5rem 0rem 1rem 0rem;
+    width: 100%;
+}
+#services h3{
+    margin: 1rem 0rem;
+    font-weight: 700;
+}
+#services > p{
+    margin: 1rem 0rem 4rem 0rem;
+}
+#services .container div{
+    margin-bottom: 1.5rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+/*articles*/
+#articles{
+    padding: 3rem 1.5rem 0rem 1.5rem;
+}
+#articles h1{
+    margin-bottom: 2rem ;
+}
+#articles .author{
+    margin: 0rem 0rem 2rem 0rem;
+    color: gray;
+}
+#articles .article{
+    margin: 1rem 0rem 3rem 0rem;
+    transition: all .3s ease-in;
+}
+#articles .article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px rgba(88, 88, 88, 0.514) ;
+}
+#articles  img{
+    height: 200px;
+    width: 100%;
+}
+#articles .title{
+    margin: 1rem 0rem;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    background: var(--dark-blue);
+    color: white;
+    padding: .5rem 0rem 0rem 0rem;
+}
+#footer h3{
+    margin: 2rem 0rem;
+}
+
+#footer .socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+#footer .socials svg{
+    font-size: 2rem;
+    margin: 0rem .5rem;
+}
+#footer p{
+    padding: .7rem 0rem;
+}
+
+#footer button{
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+
+@media (max-width:425px){
+    #header  .desktop-nav ul{
+        display:none;
+    }
+    #header .menu-button{
+        display: block;
+    }
+}
