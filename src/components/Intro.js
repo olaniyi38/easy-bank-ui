@@ -31,7 +31,7 @@ const Intro = () => {
          visibility:'visible'
      })
      .to(h1Before,{
-         duration:1,
+         duration:2,
          top:'-100px',
          
      },'-=.5')
