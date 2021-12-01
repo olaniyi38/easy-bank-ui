@@ -2,8 +2,28 @@ import img1 from '../images/icon-online.svg'
 import img2  from '../images/icon-budgeting.svg'
 import img3  from '../images/icon-onboarding.svg'
 import img4  from '../images/icon-api.svg'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import { useEffect } from 'react'
+
 
 const Services = ()=>{
+  
+    gsap.registerPlugin(ScrollTrigger)
+
+    useEffect(()=>{
+        gsap.from('#services .container div',{
+            duration:1.5,
+            y:20,
+            stagger:.5,
+            opacity:0,
+            scrollTrigger:{
+                trigger:'#services h1',
+                start:'top center',
+                
+            }
+        })
+    },[])
 return(
 <section id="services">
     <h1>Why work with us?</h1>

@@ -5,6 +5,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import SideMenuButton from "./SideMenuButton"
 import logo from '../images/logo.svg'
+import { Button } from '@material-ui/core'
 
 const Header = () => {
  
@@ -52,15 +53,22 @@ return (
             <SideMenuButton toggleMenu={toggleMenu} active={isActive} />
             <ul>
                 <li className="nav-item">
-                    <a href="#about-me" className="nav-link">Home</a>
+                    <a href="#" className="nav-link">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#my-projects" className=" nav-link">About</a>
+                    <a href="#my-projects" className="nav-link">About</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#contact" className="nav-link">Contact</a>
+                    <a href="#footer" className="nav-link">Contact</a>
+                </li>
+                <li className="nav-item">
+                    <a href="#contact" className="nav-link">Blog</a>
+                </li>
+                <li className="nav-item">
+                    <a href="#contact" className="nav-link">Careers</a>
                 </li>
             </ul>
+            <Button variant="contained" size='small' >Request invite</Button>
         </div>
 
         <div className={`mobile-nav ${isActive ? 'active' : ''}`}>
