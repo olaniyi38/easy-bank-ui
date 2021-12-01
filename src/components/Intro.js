@@ -32,9 +32,9 @@ const Intro = () => {
      })
      .to(h1Before,{
          duration:1,
-         top:'-150px',
-         display:'none'
-     })
+         top:'-100px',
+         
+     },'-=.5')
      .from('#intro .content p',{
          duration:1,
          opacity:0,

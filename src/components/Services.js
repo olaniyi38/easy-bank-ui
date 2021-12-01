@@ -13,7 +13,7 @@ const Services = ()=>{
 
     useEffect(()=>{
         gsap.from('#services .container div',{
-            duration:1.5,
+            duration:1,
             y:20,
             stagger:.5,
             opacity:0,
